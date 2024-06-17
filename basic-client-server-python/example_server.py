@@ -4,7 +4,7 @@ from time import time
 
 from example_interface import ExampleInterface
 
-from sdbus import request_default_bus_name_async
+from sdbus import request_default_bus_name_async, sd_bus_open_system, set_default_bus
 
 loop = new_event_loop()
 
